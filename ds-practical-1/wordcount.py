@@ -1,0 +1,13 @@
+a = input("Enter a sentence: ")
+b = len(a.split())
+c = len(a)
+d = a.lower()
+e = a.upper()
+f = a.replace(" ", "_")
+
+print("Original Sentence:", a)
+print("Word Count:", b)
+print("Character Count:", c)
+print("Lowercase:", d)
+print("Uppercase:", e)
+print("Underscored:", f)

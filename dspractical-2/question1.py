@@ -42,24 +42,3 @@ print("======================================================")
 print("i. Convert a list to a tuple")
 my_list = [10, 20, 30, 40]
 converted_tuple = tuple(my_list)
-print("Converted tuple:", converted_tuple)
-print("======================================================")
-
-print("j. Sort a tuple of numbers in ascending order")
-unsorted_tuple = (5, 2, 9, 1, 7)
-sorted_tuple = tuple(sorted(unsorted_tuple))
-print("Sorted tuple:", sorted_tuple)
-print("======================================================")
-
-print("k. Repeat a tuple 3 times using the * operator")
-repeat_tuple = (1, 2)
-print("Repeated tuple:", repeat_tuple * 3)
-print("======================================================")
-
-print("l. Check immutability property of tuples by trying to modify an element")
-immutable_tuple = (10, 20, 30)
-try:
-    immutable_tuple[0] = 99
-except TypeError as e:
-    print("Error (immutability check):", e)
-print("======================================================")
